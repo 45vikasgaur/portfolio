@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Premium personal portfolio website">
+
+    <title>Vikas | Software Developer</title>
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background Glow -->
+    <div class="bg-glow glow-one"></div>
+    <div class="bg-glow glow-two"></div>
+
+    <!-- Sidebar Toggle -->
+    <button class="menu-btn" id="menuBtn">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <!-- Overlay -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- ================= SIDEBAR ================= -->
+
+    <aside class="sidebar" id="sidebar">
+
+        <div class="sidebar-top">
+
+            <div class="profile-mini">
+                <div class="formal.jpg">
+                    <span>V</span>
+                </div>
+
+                <div>
+                    <h3>Vikas</h3>
+                    <p>Developer</p>
+                </div>
+            </div>
+
+            <button class="close-btn" id="closeBtn">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+        </div>
+
+        <nav class="navbar">
+
+            <a href="#home" class="nav-link active">
+                <i class="fa-solid fa-house"></i>
+                <span>Home</span>
+            </a>
+
+            <a href="#about" class="nav-link">
+                <i class="fa-solid fa-user"></i>
+                <span>About</span>
+            </a>
+
+            <a href="#skills" class="nav-link">
+                <i class="fa-solid fa-code"></i>
+                <span>Skills</span>
+            </a>
+
+            <a href="#services" class="nav-link">
+                <i class="fa-solid fa-layer-group"></i>
+                <span>Services</span>
+            </a>
+
+            <a href="#projects" class="nav-link">
+                <i class="fa-solid fa-briefcase"></i>
+                <span>Projects</span>
+            </a>
+
+            <a href="#experience" class="nav-link">
+                <i class="fa-solid fa-timeline"></i>
+                <span>Experience</span>
+            </a>
+
+            <a href="#contact" class="nav-link">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Contact</span>
+            </a>
+
+        </nav>
+
+        <div class="sidebar-bottom">
+
+            <div class="availability">
+                <span class="status-dot"></span>
+                <span>Available for work</span>
+            </div>
+
+            <div class="social-links">
+
+                <a href="https://github.com/45vikasgaur" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/vikas-gaur-a87b6431b/" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a href="https://instgram.com/45vikasgaur" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </aside>
+
+
+    <!-- ================= MAIN ================= -->
+
+    <main>
+
+        <!-- HERO -->
+
+        <section class="hero section" id="home">
+
+            <div class="hero-content">
+
+                <div class="hero-badge">
+                    <span></span>
+                    Hello, I'm a Developer
+                </div>
+
+                <h1>
+                    Building Digital
+                    <span>Experiences</span>
+                    That Matter.
+                </h1>
+
+                <p class="hero-description">
+                    I'm a BCA student and aspiring Software Developer
+                    passionate about creating modern, responsive and
+                    user-friendly digital experiences.
+                </p>
+
+                <div class="typing-box">
+                    <span>I am a </span>
+                    <span id="typing"></span>
+                </div>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="btn primary-btn">
+                        View My Work
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                    <a href="#contact" class="btn secondary-btn">
+                        Let's Talk
+                        <i class="fa-regular fa-paper-plane"></i>
+                    </a>
+
+                </div>
+
+                <div class="hero-stats">
+
+                    <div class="stat">
+                        <h3>10+</h3>
+                        <p>Projects</p>
+                    </div>
+
+                    <div class="stat">
+                        <h3>5+</h3>
+                        <p>Technologies</p>
+                    </div>
+
+                    <div class="stat">
+                        <h3>100%</h3>
+                        <p>Passion</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-visual">
+
+                <div class="code-card">
+
+                    <div class="code-top">
+                        <div class="dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <p>developer.js</p>
+                    </div>
+
+                    <div class="code-body">
+
+                        <p>
+                            <span class="purple">const</span>
+                            developer =
+                        </p>
+
+                        <p class="indent">
+                            {
+                        </p>
+
+                        <p class="indent">
+                            name:
+                            <span class="green">
+                                "Vikas"
+                            </span>,
+                        </p>
+
+                        <p class="indent">
+                            role:
+                            <span class="green">
+                                "Software Developer"
+                            </span>,
+                        </p>
+
+                        <p class="indent">
+                            skills:
+                            [
+                        </p>
+
+                        <p class="double-indent">
+                            <span class="green">"Java"</span>,
+                        </p>
+
+                        <p class="double-indent">
+                            <span class="green">"JavaScript"</span>,
+                        </p>
+
+                        <p class="double-indent">
+                            <span class="green">"SQL"</span>
+                        </p>
+
+                        <p class="indent">
+                            ]
+                        </p>
+
+                        <p class="indent">
+                            };
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="floating-card card-one">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Clean Code</span>
+                </div>
+
+                <div class="floating-card card-two">
+                    <i class="fa-solid fa-bolt"></i>
+                    <span>Fast UI</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section class="section about" id="about">
+
+            <div class="section-heading">
+                <span>01 — ABOUT ME</span>
+                <h2>Turning Ideas Into <strong>Reality</strong></h2>
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-image">
+
+                    <div class="image-box">
+                        <div class="image-placeholder">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+
+                        <div class="experience-badge">
+                            <strong>+</strong>
+                            <span>Creative<br>Mindset</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="about-content">
+
+                    <h3>
+                        I create things for the web
+                        and love solving problems.
+                    </h3>
+
+                    <p>
+                        I'm currently pursuing BCA and building my
+                        foundation in software development. I enjoy
+                        learning new technologies and turning ideas
+                        into real-world projects.
+                    </p>
+
+                    <p>
+                        My current focus is on Java, Data Structures
+                        & Algorithms, JavaScript, web development and
+                        databases.
+                    </p>
+
+                    <div class="about-details">
+
+                        <div>
+                            <span>Name</span>
+                            <strong>Vikas</strong>
+                        </div>
+
+                        <div>
+                            <span>Education</span>
+                            <strong>BCA</strong>
+                        </div>
+
+                        <div>
+                            <span>Focus</span>
+                            <strong>Software Development</strong>
+                        </div>
+
+                        <div>
+                            <span>Location</span>
+                            <strong>India</strong>
+                        </div>
+
+                    </div>
+
+                    <a href="https://www.learnvern.com/resume/vikas-1727012451" class="btn primary-btn">
+                        Download Resume
+                        <i class="fa-solid fa-download"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+
+        <section class="section skills" id="skills">
+
+            <div class="section-heading">
+                <span>02 — MY SKILLS</span>
+                <h2>Technologies I <strong>Work With</strong></h2>
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        <i class="fa-brands fa-html5"></i>
+                    </div>
+
+                    <div class="skill-info">
+                        <h3>HTML</h3>
+                        <span>90%</span>
+                    </div>
+
+                    <div class="progress">
+                        <div style="width:90%"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+
+                    <div class="skill-info">
+                        <h3>CSS</h3>
+                        <span>85%</span>
+                    </div>
+
+                    <div class="progress">
+                        <div style="width:85%"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+
+                    <div class="skill-info">
+                        <h3>JavaScript</h3>
+                        <span>80%</span>
+                    </div>
+
+                    <div class="progress">
+                        <div style="width:80%"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        <i class="fa-brands fa-java"></i>
+                    </div>
+
+                    <div class="skill-info">
+                        <h3>Python</h3>
+                        <span>75%</span>
+                    </div>
+
+                    <div class="progress">
+                        <div style="width:75%"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+
+                    <div class="skill-info">
+                        <h3>SQL</h3>
+                        <span>80%</span>
+                    </div>
+
+                    <div class="progress">
+                        <div style="width:80%"></div>
+                    </div>
+
+                </div>
+
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">
+                        <i class="fa-brands fa-git-alt"></i>
+                    </div>
+
+                    <div class="skill-info">
+                        <h3>Git & GitHub</h3>
+                        <span>75%</span>
+                    </div>
+
+                    <div class="progress">
+                        <div style="width:75%"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SERVICES ================= -->
+
+        <section class="section services" id="services">
+
+            <div class="section-heading">
+                <span>03 — SERVICES</span>
+                <h2>What I Can <strong>Do</strong></h2>
+            </div>
+
+            <div class="services-grid">
+
+                <div class="service-card">
+
+                    <div class="service-number">01</div>
+
+                    <div class="service-icon">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+
+                    <h3>Web Development</h3>
+
+                    <p>
+                        Building responsive and modern websites
+                        using HTML, CSS and JavaScript.
+                    </p>
+
+                    <a href="#contact">
+                        Learn More
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+
+                <div class="service-card">
+
+                    <div class="service-number">02</div>
+
+                    <div class="service-icon">
+                        <i class="fa-solid fa-mobile-screen"></i>
+                    </div>
+
+                    <h3>Responsive Design</h3>
+
+                    <p>
+                        Creating websites that look beautiful
+                        on mobile, tablet and desktop devices.
+                    </p>
+
+                    <a href="#contact">
+                        Learn More
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+
+                <div class="service-card">
+
+                    <div class="service-number">03</div>
+
+                    <div class="service-icon">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+
+                    <h3>Database Solutions</h3>
+
+                    <p>
+                        Designing and managing structured data
+                        using SQL and database technologies.
+                    </p>
+
+                    <a href="#contact">
+                        Learn More
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+
+        <section class="section projects" id="projects">
+
+            <div class="section-heading">
+                <span>04 — PROJECTS</span>
+                <h2>Selected <strong>Work</strong></h2>
+            </div>
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+
+                    <div class="project-image project-one">
+
+                        <div class="project-overlay">
+                            <a href="#">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="project-content">
+
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <h3>Modern Portfolio</h3>
+
+                        <p>
+                            A modern responsive portfolio website
+                            with animations and interactive UI.
+                        </p>
+
+                        <a href="https://vidssave.com/index-3tz" class="project-link">
+                            View Project
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-image project-two">
+
+                        <div class="project-overlay">
+                            <a href="#">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="project-content">
+
+                        <div class="project-tags">
+                            <span>JavaScript</span>
+                            <span>API</span>
+                        </div>
+
+                        <h3>Weather Application</h3>
+
+                        <p>
+                            Weather application showing real-time
+                            weather information using an API.
+                        </p>
+
+                        <a href="#" class="project-link">
+                            View Project
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-image project-three">
+
+                        <div class="project-overlay">
+                            <a href="#">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="project-content">
+
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>DSA</span>
+                        </div>
+
+                        <h3>Algorithm Visualizer</h3>
+
+                        <p>
+                            Interactive visualization of common
+                            data structures and algorithms.
+                        </p>
+
+                        <a href="#" class="project-link">
+                            View Project
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= EXPERIENCE ================= -->
+
+        <section class="section experience" id="experience">
+
+            <div class="section-heading">
+                <span>05 — JOURNEY</span>
+                <h2>My Learning <strong>Journey</strong></h2>
+            </div>
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-date">
+                        2024
+                    </div>
+
+                    <div class="timeline-content">
+
+                        <h3>Started BCA</h3>
+
+                        <p>
+                            Started my journey in Computer
+                            Applications and developed interest
+                            in software development.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-date">
+                        2025
+                    </div>
+
+                    <div class="timeline-content">
+
+                        <h3>Web Development</h3>
+
+                        <p>
+                            Learned HTML, CSS, JavaScript and
+                            started building real-world projects.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-date">
+                        2026
+                    </div>
+
+                    <div class="timeline-content">
+
+                        <h3>Software Development</h3>
+
+                        <p>
+                            Started focusing on Java, DSA,
+                            databases and software engineering.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section class="section contact" id="contact">
+
+            <div class="section-heading">
+                <span>06 — CONTACT</span>
+                <h2>Let's Build Something <strong>Great</strong></h2>
+            </div>
+
+            <div class="contact-grid">
+
+                <div class="contact-info">
+
+                    <h3>Have a project in mind?</h3>
+
+                    <p>
+                        I'm always open to discussing new projects,
+                        creative ideas or opportunities.
+                    </p>
+
+                    <div class="contact-item">
+
+                        <div>
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+
+                        <div>
+                            <span>Email</span>
+                            <strong>45vikasgaur@gmail.com</strong>
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-item">
+
+                        <div>
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+
+                        <div>
+                            <span>Location</span>
+                            <strong>India</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <form class="contact-form" id="contactForm">
+
+                    <div class="input-group">
+
+                        <input type="text"
+                            placeholder="Your Name"
+                            required>
+
+                        <input type="email"
+                            placeholder="Your Email"
+                            required>
+
+                    </div>
+
+                    <input type="text"
+                        placeholder="Subject"
+                        required>
+
+                    <textarea
+                        rows="7"
+                        placeholder="Your Message"
+                        required></textarea>
+
+                    <button type="submit"
+                        class="btn primary-btn">
+
+                        Send Message
+
+                        <i class="fa-regular fa-paper-plane"></i>
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FOOTER ================= -->
+
+        <footer>
+
+            <div class="footer-logo">
+                V<span>.</span>
+            </div>
+
+            <p>
+                Designed & Built with passion by Vikas
+            </p>
+
+            <div class="footer-social">
+
+                <a href="#">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+            </div>
+
+        </footer>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
